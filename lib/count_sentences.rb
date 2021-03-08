@@ -19,7 +19,7 @@ class String
       self.split
     elsif self.end_with("?")
       self.split
-    elsif self.end_with("!")
+    else self.end_with("!")
       self.split
     end
     self.count_sentences
