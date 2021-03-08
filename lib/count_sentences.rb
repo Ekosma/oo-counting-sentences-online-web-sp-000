@@ -22,6 +22,6 @@ class String
     else self.end_with("!")
       self.split
     end
-    self.count_sentences
+    self.length
   end
 end
