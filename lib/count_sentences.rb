@@ -18,9 +18,9 @@ class String
     if self.end_with(".")
       self.split(" ")
     elsif self.end_with("?")
-      self.split
+      self.split(" ")
     else self.end_with("!")
-      self.split
+      self.split(" ")
     end
     self.count_sentences
   end
